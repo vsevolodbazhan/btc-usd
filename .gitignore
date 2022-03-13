@@ -1,0 +1,12 @@
+# [Python]
+__pycache__
+.mypy_cache
+
+# [VS Code]
+.vscode
+
+# [Airflow]
+logs
+
+# [Misc]
+.DS_Store
