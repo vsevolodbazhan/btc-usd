@@ -39,7 +39,7 @@ services:
           "CMD",
           "pg_isready",
           "--port",
-          "${STORAGE_PORT}",
+          "5432",
           "--username",
           "${STORAGE_USER}"
         ]
@@ -65,7 +65,7 @@ services:
           "CMD",
           "pg_isready",
           "--port",
-          "${BACKEND_PORT}",
+          "5432",
           "--username",
           "${BACKEND_USER}"
         ]
