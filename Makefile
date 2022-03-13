@@ -1,7 +1,7 @@
 include .env
 
 start:
-	@docker compose up -d
+	@docker compose up --build --detach
 
 stop:
 	@docker compose stop
